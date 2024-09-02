@@ -1,0 +1,26 @@
+.card-body {
+    background: radial-gradient(circle, #9789de, #2a6d89, #d7a4d7);
+}
+
+.card-title {
+    color: rgb(16, 9, 9);
+    font-size: 30px;
+}
+
+.card-text {
+    color: white;
+    font-size: 10px;
+    text-align: justify;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.card-img-top {
+    padding: 20px;
+    background: radial-gradient(circle, #7f6ed6, #849fab, #981c98);
+
+}
+
+.card {
+    padding: 10px;
+}
