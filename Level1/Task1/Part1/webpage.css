@@ -1,0 +1,80 @@
+.child1 ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.child1 ul li {
+    display: inline;
+    padding: 10px 14px;
+}
+
+.prnt {
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.child {
+    width: 30%;
+    margin-left: 150px;
+}
+
+.child1 {
+    width: 50%;
+}
+
+.box {
+    background-image: url(image.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.prnt1 {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    width: 40%;
+}
+
+.box2 {
+    width: 40%;
+}
+
+.img {
+    width: 40%;
+}
+
+.box3 {
+    background-color: black;
+    text-align: center;
+    height: 250px;
+}
+
+.box3 h1 {
+    font-weight: 400;
+    color: white;
+}
+
+.box3 ul {
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.box3 ul li {
+    list-style: none;
+    padding: 20px 30px 30px 90px;
+    text-align: left;
+}

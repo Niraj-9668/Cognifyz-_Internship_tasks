@@ -1,0 +1,110 @@
+.prnt {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    background-image: url(https://st2.depositphotos.com/2124221/46809/i/450/depositphotos_468095768-stock-photo-abstract-multicolored-background-poly-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    z-index: 99;
+    position: fixed;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px;
+}
+
+.search {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.search input {
+    width: 60%;
+    text-align: left;
+    color: rgb(1, 1, 5);
+    font-weight: bolder;
+}
+
+.supplier {
+    width: 15%;
+    padding-top: 20px;
+}
+
+.supplier a:hover {
+    color: blue;
+}
+
+.supplier a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.cart {
+    width: 15%;
+    padding: 20px;
+}
+
+.cart a:hover {
+    color: blue;
+}
+
+.cart a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.login {
+    width: 15%;
+    padding: 20px;
+
+}
+
+.login a:hover {
+    color: blue;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.prnt1 {
+    width: 70%;
+    display: flex;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+.child1 {
+    width: 45%;
+    padding-left: 100px;
+}
+
+.child2 {
+    width: 5%;
+}
+
+.child3 {
+    width: 50%;
+}
+
+.bt {
+    background-color: rgba(235, 26, 26, 0.87);
+    color: rgb(245, 191, 125);
+    border: 2px solid black;
+}
+
+.bt:hover {
+    color: black;
+    background-color: rgb(216, 193, 193);
+}
