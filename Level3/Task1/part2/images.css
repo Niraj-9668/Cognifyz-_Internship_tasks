@@ -1,0 +1,46 @@
+.head {
+    text-align: center;
+    color: white;
+    letter-spacing: 20px;
+    line-height: 50px;
+}
+
+body {
+    background-image: linear-gradient(120deg, black, rgb(171, 171, 230));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 60%;
+    height: 450px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    background-image: url(https://images.pexels.com/photos/136872/pexels-photo-136872.jpeg?cs=srgb&dl=pexels-mikebirdy-136872.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px 10px white;
+    animation: slider 30s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg);
+    }
+
+    20% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHH58LGqGhXPCfT2ckPZDjj1b8Ero-kxH6Mw&s);
+    }
+
+    40% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn61yLiZg90Fse2NeDR-uNRotGcSK6tHbj3A&s);
+    }
+
+    60% {
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/410/494/431/racing-f1-car-formula-1-race-car-hd-wallpaper-preview.jpg);
+    }
+
+    80% {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tp0G4Ho-rNiL1tJ-OxM5vb2vUMo7cy6wjQ&s);
+    }
+}
